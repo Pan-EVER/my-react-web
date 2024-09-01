@@ -29,6 +29,27 @@ module.exports = [
           },
         ],
       },
+      {
+        name: "拖动功能",
+        path: "/drag-test",
+        routes: [
+          {
+            name: "draggable",
+            path: "/drag-test/draggable",
+            component: "@/pages/drag-test/draggable/index.tsx",
+          },
+          {
+            name: "beatutiful",
+            path: "/drag-test/beatutiful",
+            component: "@/pages/drag-test/beatutiful/index.tsx",
+          },
+          {
+            name: "dnd",
+            path: "/drag-test/dnd",
+            component: "@/pages/drag-test/dnd/index.tsx",
+          },
+        ],
+      },
     ],
   },
 ];
