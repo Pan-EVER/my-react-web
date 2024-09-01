@@ -1,9 +1,9 @@
 import { defineConfig } from "umi";
+import routes from "./config/routes";
+import proxy from "./config/proxy";
 
 export default defineConfig({
-  routes: [
-    { path: "/", component: "index" },
-    { path: "/docs", component: "docs" },
-  ],
-  npmClient: 'npm',
+  routes: routes,
+  npmClient: "npm",
+  proxy,
 });

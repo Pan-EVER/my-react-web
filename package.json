@@ -9,7 +9,15 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "^4.0.89"
+    "@ant-design/icons": "^5.2.6",
+    "@handsontable/react": "^14.0.0",
+    "antd": "^5.11.5",
+    "axios": "^1.6.2",
+    "handsontable": "^14.0.0",
+    "jszip": "^3.10.1",
+    "react-to-print": "^2.14.15",
+    "umi": "^4.0.89",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
